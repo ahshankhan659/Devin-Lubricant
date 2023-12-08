@@ -1,0 +1,49 @@
+.heading .deisel-products{
+    color: #01526dee;
+    margin: 0 0;
+    padding: 3rem 20px;
+    text-align: start;
+    font-size: 37px;
+    font-style: inherit;
+}
+.deisel{
+    width: 300px;
+    padding: 0.5rem 20px 1rem;
+    margin-bottom: 2rem;
+    
+}
+.deisel-card{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 300px;
+}
+.deisel-img .imge{
+    width: 300px;
+    height: 200px;
+}
+.deisel-title{
+    padding: 0px 15px 40px;
+}
+.deisel-title h5{
+    padding-top: 0px;
+    font-size: 17px;
+    margin: 10px 0;
+}
+.deisel-title p{
+    padding: 0 0 5px ;
+    font-size: 16px;
+    line-height: 27px;
+}
+.deisel-title a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid #fb5858;
+    color: white;
+    background-color: #fb5858;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease; 
+}
+.deisel-title a:hover{
+    color: #fb5858;
+    background: transparent;
+}

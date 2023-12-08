@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import { Routes } from 'react-router-dom';
 import './App.css';
+import DeiselProducts from './Components/Deisel/DeiselProducts';
+import DeiselProduct1 from './Components/DeiselDetail/DeiselProduct1';
+import Engine from './Components/Engine-Oil/Engine';
+import Footer from './Components/Footer/Footer';
+import Main from './Components/Main/Main';
+// import { Route,Routes } from 'react-router-dom';
+import Header from './Components/Navbar/Header';
+import PetrolProducts from './Components/Petrol/PetrolProducts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header />
+      <Main />
+      <DeiselProducts />
+      <PetrolProducts />
+      <Engine />
+      <Footer />
+      {/* <Routes>
+        <Route path="/DeiselProduct1" element={<DeiselProduct1 />} />
+      </Routes> */}
+    </>
+  )
 }
 
 export default App;

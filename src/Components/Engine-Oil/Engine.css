@@ -1,0 +1,84 @@
+/* -------flex-container------ */
+.flex-container{
+    display: flex;
+    height: 488px;
+}
+.flex-l{
+    flex:  1 ;
+    background: #FA2A55 ;
+    padding: 3rem;
+    
+}
+.flex-l h3{
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.flex-l h1{
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+.flex-l p{
+    color: white;
+    line-height: 24px;
+}
+.flex-l button{
+    margin: 20px 0;
+    padding: 12px 45px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid white;
+    color: white;
+    background: #FA2A55;
+    border-radius: 60px;
+    transition: all 0.4s ease;
+}
+.flex-l button:hover{
+    background: white;
+    border: 1px solid white;
+    color: #19516c;
+}
+.flex-r{
+    flex: 1 ;
+}
+@media (max-width: 1024px) {
+    .flex-container {
+        height: auto;
+        flex-direction: column;
+        margin: 0; /* Adjust height */
+      }
+    
+      .flex-l h1 {
+        font-size: 24px; /* Adjust font size */
+      }
+    
+      .flex-l p {
+        font-size: 16px; /* Adjust font size */
+      }
+    
+      .flex-l button {
+        padding: 10px 35px; /* Adjust padding */
+        font-size: 15px; /* Adjust font size */
+      }
+     
+      .flex-r>img{
+          width: 100%;
+          height: 550px;
+          object-fit: cover;
+      }
+}
+@media (max-width: 750px) {
+    .flex-r>img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+@media (max-width: 480px){
+    .flex-r>img{
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+    }
+}
